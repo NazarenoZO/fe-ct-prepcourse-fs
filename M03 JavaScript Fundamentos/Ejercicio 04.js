@@ -5,27 +5,33 @@
 
 function elevarAlCuadrado(num) {
    // Retorna el valor de "num" elevado al cuadrado.
-   // Tu código:
+   // 1-- Tu código:
+   return Math.pow(num, 2);
 }
 
 function elevarAlCubo(num) {
    // Retorna el valor de "num" elevado al cubo.
    // Tu código:
+   return Math.pow(num, 3);
 }
 
 function elevar(num, exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
    // Tu código:
+   return Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
+   var res = Math.round(num);
+   return res
 }
 
 function redondearHaciaArriba(num) {
    // Redondea "num" hacia arriba y retórnalo.
    // Tu código:
+   
 }
 
 function numeroRandom() {
